@@ -8,12 +8,14 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./style.css" />
 </head>
 <body>
-    <div>
-        <h1>Tower gun</h1>
-        <button id="start-game">Start</button>
+    <div id="app-loading-ready" style="display: none;">
+        <div>
+            <h1>Tower gun</h1>
+            <button id="start-game">Start</button>
+        </div>
+        
+        <canvas id="tower-gun" width="320" height="640"></canvas>
     </div>
-    
-    <canvas id="tower-gun" width="320" height="640"></canvas>
-    <script src="./main.js"></script>
+    <script src="./src/index.js"></script>
 </body>
 </html>
