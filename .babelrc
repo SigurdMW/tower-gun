@@ -3,6 +3,7 @@
         "env"
     ],
     "plugins": [
+        "babel-plugin-transform-object-rest-spread",
         ["transform-runtime",
             {
                 "polyfill": false,

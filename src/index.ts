@@ -1,8 +1,8 @@
 import { NUM_COLUMNS, COL_SIZE, ROW_HEIGHT, canvas, context, appElement, brickTypes } from "./variables"
-import ActiveBullets from "./ActiveBullets"
-import LevelManager from "./LevelManager"
-import { newImageLoader } from "./utils"
-import { brick, bullet } from "./templates"
+import ActiveBullets from "./.purejs/ActiveBullets"
+import LevelManager from "./.purejs/LevelManager"
+import { newImageLoader } from "./.purejs/utils"
+import { brick, bullet } from "./.purejs/templates"
 // eslint-disable-next-line
 import "babel-polyfill"
 
